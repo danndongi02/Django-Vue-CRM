@@ -4,6 +4,7 @@ node_modules
 
 
 # local env files
+*.env
 .env.local
 .env.*.local
 
@@ -29,3 +30,4 @@ dist_electron
 # python files
 crm_env/
 __pycache__
+Backend/.env
