@@ -1,8 +1,10 @@
 <template>
     <div>
         <Navbar />
-        <div class="text-blue-600 font-bold">Welcome to Ng'aa Maskani Kenya</div>
 
+        <div class="p-12 bg-white dark:bg-gray-900 h-screen max-h-full">
+            <router-view />
+        </div>
     </div>
 </template>
 
