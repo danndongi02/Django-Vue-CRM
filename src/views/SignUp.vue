@@ -1,6 +1,7 @@
 <template>
     <div class="items-center">
         <form class="max-w-md mx-auto max-h-auto">
+            <h1 class="font-bold text-2xl text-gray-900 dark:text-white my-7">Sign Up</h1>
             <!-- first name and last name -->
             <div class="grid md:grid-cols-2 md:gap-6">
                 <div class="relative z-0 w-full mb-5 group">
