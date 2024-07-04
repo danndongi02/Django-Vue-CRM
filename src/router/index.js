@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 
 import SignUp from '@/views/SignUp.vue'
 import Login from '@/views/Login.vue'
+import Dashboard from '@/views/Dashboard/Dashboard.vue'
 
 const routes = [
   {
@@ -19,7 +20,12 @@ const routes = [
     path: '/login',
     name: 'Login',
     component: Login
-  }
+  },
+  {
+    path: '/dashboard',
+    name: 'Dashboard',
+    component: Dashboard
+  },
 ]
 
 const router = createRouter({
