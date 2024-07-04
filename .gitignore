@@ -24,4 +24,8 @@ pnpm-debug.log*
 node_modules
 
 #Electron-builder output
-/dist_electron
+dist_electron
+
+# python files
+crm_env/
+__pycache__
